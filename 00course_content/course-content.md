@@ -1,6 +1,3 @@
-Important Guidelines - Namaste React
-
-Some important Guidelines, before you start with your React journey with Namaste React.
 
 Episode-01 | Inception
 Introduction to foundational tools and frameworks in web development.

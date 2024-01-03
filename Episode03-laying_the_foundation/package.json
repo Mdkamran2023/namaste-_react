@@ -1,0 +1,28 @@
+{
+  "name": "episode03-laying_the_foundation",
+  "version": "1.0.0",
+  "description": "Laying The Foundation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdkamran2023/namaste-_react.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "start":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "author": "Md Kamran",
+  "license": "ISC",
+  "dependencies": {
+    "browserslist": "^4.22.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 3 version"
+  ]
+}
