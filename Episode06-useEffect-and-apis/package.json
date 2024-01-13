@@ -1,0 +1,34 @@
+{
+  "name": "episode06-reactapp",
+  "version": "1.0.0",
+  "description": "\"Learning About useEffect Hooks and APIs\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdkamran2023/namaste-_react.git"
+  },
+  "author": "MD Kamran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mdkamran2023/namaste-_react/issues"
+  },
+  "homepage": "https://github.com/Mdkamran2023/namaste-_react#readme",
+  "dependencies": {
+    "browserslist": "^4.22.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactdom": "^2.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 3 version"
+  ]
+}

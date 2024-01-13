@@ -1,0 +1,162 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border-right:1px solid black;
+    border-bottom:1px solid black ;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius:20%;
+    border-top-right-radius: 14%;
+}
+
+.login{
+    padding: 0 20px;
+    border-radius: 9px;
+    background-color:rgb(8, 112, 153);
+    color:whitesmoke;
+}
+
+.login:hover{
+    background-color:rgb(12, 169, 231);
+    transform:scale(1.05);
+}
+
+.logo{
+    width:140px;
+}
+
+.nav-items{
+    padding-block: 20px;
+    padding-inline-end: 30px;
+}
+
+.nav-items>ul{
+    display:flex;
+    font-size:18px;
+}
+
+.nav-items>ul>li{
+    padding:10px;
+    margin:10px;
+    list-style: none;
+}
+.body{
+    padding:48px;
+    margin:10px;
+}
+.filter{
+    margin:12px;
+    display:flex;
+    padding-inline:8px;
+}
+
+.search{
+margin-bottom:8px;
+}
+
+.search-box{
+    padding-inline:6px;
+    padding-block: 8px;
+    border-radius: 5px;
+    background-color:#b1d4cc;
+    cursor:pointer;
+    margin-right:5px;
+}
+.search-btn{
+    padding-inline:6px;
+    padding-block: 8px;
+    border-radius: 5px;
+    background-color:#b1d4cc;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+.filter-btn{
+ margin-left:9px;
+padding-inline:6px;
+padding-block: 8px;
+border-radius: 5px;
+background-color:#b1d4cc;
+cursor:pointer;
+}
+
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.res-card{ 
+    margin:5px;
+    width:250px;
+    /* height:390px; */
+    border-radius:10px;
+    overflow:hidden;
+    padding-inline:3px;
+    box-sizing: border-box;
+    margin-bottom:8px ;
+}
+
+.res-card:hover{
+    /* border:1px solid rgb(165, 209, 201); */
+    cursor:pointer;
+    transform: scale(1.03);
+}
+
+.res-logo{
+    width:100%;
+    max-height: 51%;
+    min-height: 50%;
+    border-radius: 3px;
+}
+
+
+/* for Shimmer file */
+
+.shimmer-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:34px;
+    margin-top:28px;
+}
+
+.shimmer-card{
+    width:250px;
+    height:400px;
+    background-color: #f3f4f3;
+    border-radius:15px;
+    box-sizing: border-box;
+    margin:8px ;
+}
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .nav-items>ul {
+    flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+    }
+    .login{
+        padding: 6 20px;
+    }
+    .nav-items>ul>li{
+        padding:7px;
+        margin:7px;
+    }
+    .filter{
+    margin-bottom:13px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
