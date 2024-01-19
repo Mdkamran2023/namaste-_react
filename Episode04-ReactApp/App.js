@@ -39,9 +39,9 @@ const Header = () => {
 };
 
 // passing style as an object
-// const styleCard={
-//   background:	" #f0f0f0"
-// }
+const styleCard={
+  background:	" #f0f0fa"
+}
 // check style
 // {{}} ==>first is telling some javascript is there && other one is js object
 
@@ -57,7 +57,10 @@ const RestaurantCard = (props) => {
   const { name, cuisines, avgRating, costForTwo, sla } = resData?.info;
   return (
     <>
-      <div className="res-card" style={{ backgroundColor: "#f0f0fa" }}>
+      <div className="res-card"
+      //  style={{ backgroundColor: "#f0f0fa" }}
+     style= {styleCard}
+       >
         <img
           className="res-logo"
           style={{ padding: "0", margin: "0" }}
