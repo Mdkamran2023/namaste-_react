@@ -43,17 +43,17 @@ export default MyComponent;
  * constructor(dummy)
  * render (dummy)
  *        <HTML  Dummy>
- * Component did Mount is called
+ * ComponentdidMount is called
  *        <API CALLED>
  *        <this.setState> -->>State Variable is updated
  * 
  * -------UPDATING---------------
  * render(API data)
  * <HTML(new API data)>
- * Component Did Update
+ * ComponentDidUpdate ---> (used for passing the value in array [] or [some_variable] in useEffect) 
  * 
  * ---- UnMOUNTING-----
- * componentWillUnmount ---->whenever going to aother page
+ * componentWillUnmount ---->whenever going to aother page(used in useeffect by returning a function)
  * 
  * 
  */
