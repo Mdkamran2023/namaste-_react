@@ -92,7 +92,7 @@ const Body = () => {
           Top Rated Restaurants
         </button>
       </div>
-
+          
       <div className="res-container">
         {filteredRestaurants.map((restaurant) => (
           <RestaurantCard key={restaurant.info.id} resData={restaurant} />
