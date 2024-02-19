@@ -30,3 +30,11 @@
 -     Redux Toolkit builds in our suggested best practices, simplifies most Redux tasks, prevents common mistakes, and makes it easier to write Redux applications. 
 - RTK includes utilities that help simplify many common use cases, including store setup, creating reducers and writing immutable update logic, and even creating entire “slices” of state at once.
 -  Whether you’re a brand new Redux user setting up your first project, or an experienced user who wants to simplify an existing application, Redux Toolkit can help you make your Redux code better.
+-  
+# Important to be noted
+  ## How to write data to redux store
+- when u hit the add button it dispatches an action function which calls reducer function which updates the slices of Redux Store
+- useDispatch hook for dispatching an action
+
+## How to read data
+- for reading data we need to be subscribed using useSelector hook....
