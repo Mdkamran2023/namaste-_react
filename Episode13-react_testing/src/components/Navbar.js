@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +11,19 @@ const Navbar = () => {
       </button>
 
       {isOpen && (
-        <ul className='flex  justify-center bg-cyan-900 bg-cover  rounded-full mx-auto font-semibold'>
-          <li className="px-4 mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white"> <Link to="/about"> About Us </Link> </li>
-          <li className="px-4 mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white"> <Link to="/contact"> Contact Us </Link> </li>
-          <li className="px-4  mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white"> <Link to="/grocery"> Grocery </Link> </li>
+        <ul className="flex  justify-center bg-cyan-900 bg-cover  rounded-full mx-auto font-semibold">
+          <li className="px-4 mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white">
+            {" "}
+            <Link to="/about"> About Us </Link>{" "}
+          </li>
+          <li className="px-4 mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white">
+            {" "}
+            <Link to="/contact"> Contact Us </Link>{" "}
+          </li>
+          <li className="px-4  mx-4 bg-slate-300 rounded-lg hover:bg-slate-400 hover:text-white">
+            {" "}
+            <Link to="/grocery"> Grocery </Link>{" "}
+          </li>
         </ul>
       )}
     </nav>

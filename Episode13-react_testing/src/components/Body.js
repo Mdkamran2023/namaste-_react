@@ -18,7 +18,8 @@ const Body = () => {
   // it will return the Component
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
-  console.log("body rendered", listOfRestaurants);
+  // console.log("body rendered", listOfRestaurants);
+  
   // whenever state variables update ,react triggers a reconcilation cycle
   //  (re-renders the Component)
 

@@ -12,7 +12,8 @@ import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 // providing store to react application 
 import appStore from "./utils/appStore";
-import Cart from "./components/Cart"
+import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 
 // Chunking
 // Code Splitting
@@ -69,6 +70,7 @@ useEffect(()=>{
       render <Contact/> when URL "/contact"
        */}
       <Outlet />
+      <Footer/>
     </div>
 
     </UserContext.Provider>

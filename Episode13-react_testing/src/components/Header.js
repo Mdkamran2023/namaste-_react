@@ -39,7 +39,8 @@ const Header = () => {
     <>
       <div className="flex  justify-between bg-gray-100 shadow-lg mb-2 rounded-md w-full max-sm:flex-col max-md:flex-col lg:flex-row ">
         <div className="ml-2">
-          {/* <img className="w-32 max-sm:mx-auto max-md:mx-auto" src={image}></img> */}
+          {/* <img data-testid="image_load" className="w-32 max-sm:mx-auto max-md:mx-auto" src={require('../../Assets/ff-transparent.svg')}></img> */}
+          <img  data-testid="image_load" className="w-32 max-sm:mx-auto max-md:mx-auto rounded-full" src={"https://as1.ftcdn.net/v2/jpg/02/10/07/94/1000_F_210079401_F4ONbo2mipFYjZbCNWqGluCYzhQv4LdA.jpg"}></img>
         </div>
         <div className="flex justify-center items-center ">
           <ul className="flex p-4 m-4 max-md:flex-col lg:flex-row">

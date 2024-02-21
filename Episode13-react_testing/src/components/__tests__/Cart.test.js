@@ -45,7 +45,7 @@ it("should Load Restaurant Menu Component", async () => {
   expect(screen.getByText("2 items")).toBeInTheDocument();
 
   expect(screen.getAllByTestId("foodItems").length).toBe(16);
-  // added carts items and recommended 14
+  // added carts items i.e 2  and recommended 14
 
   fireEvent.click(screen.getByRole("button",{name:"Clear Cart"}));
   expect(screen.getAllByTestId("foodItems").length).toBe(14);

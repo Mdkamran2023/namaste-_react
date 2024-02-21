@@ -63,3 +63,16 @@ it("should render Header Component with a Cart items 0 ", () => {
   
     expect(logoutButton).toBeInTheDocument();
   });
+
+  // it("should renders with correct image", () => {
+  //   render(
+  //     <BrowserRouter>
+  //       <Provider store={appStore}>
+  //         <Header />
+  //       </Provider>
+  //     </BrowserRouter>
+  //   );
+
+  //   const correctImg= screen.getByTestId("image_load");
+  //   expect(correctImg).toBeInTheDocument();
+  // });

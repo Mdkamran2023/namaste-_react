@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "watch-test":"jest --watch"
+    "watch-test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,13 +18,14 @@
   "bugs": {
     "url": "https://github.com/Mdkamran2023/namaste-_react/issues"
   },
-  "homepage": "https://github.com/Mdkamran2023/namaste-_react#readme",
+  "homepage": "https://mdkamran2023.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@reduxjs/toolkit": "^2.1.0",
     "browserslist": "^4.22.2",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
